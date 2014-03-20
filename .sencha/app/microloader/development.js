@@ -1,7 +1,4 @@
-/**
- * Sencha Blink - Development
- * @author Jacky Nguyen <jacky@sencha.com>
- */
+
 (function() {
     var head = document.head || document.getElementsByTagName('head')[0];
 
