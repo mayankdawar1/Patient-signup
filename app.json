@@ -1,21 +1,11 @@
 {
-    /**
-     * The application's namespace, used by Sencha Command to generate classes
-     */
+   
     "name": "Forms",
 
-    /**
-     * The file path to this application's front HTML document, relative to this app.json file
-     */
+    
     "indexHtmlPath": "index.html",
 
-    /**
-     * The absolute URL to this application in development environment, i.e: the URL to run this application
-     * on your web browser during development, e.g: "http://localhost/myapp/index.html".
-     *
-     * This value is needed when build to resolve your application's dependencies if it requires server-side resources
-     * that are not accessible via file system protocol.
-     */
+   
     "url": null,
 
     /**
@@ -106,9 +96,7 @@
         "fallback": []
     },
 
-    /**
-     * Extra resources to be copied along when build
-     */
+    
     "extras": [
         "resources/images",
         "resources/icons",
@@ -116,17 +104,12 @@
         "user.json"
     ],
 
-    /**
-     * File / directory name matchers to ignore when copying to the builds, must be valid regular expressions
-     */
+    
     "ignore": [
         "\.svn$"
     ],
 
-    /**
-     * Directory path to store all previous production builds. Note that the content generated inside this directory
-     * must be kept intact for proper generation of deltas between updates
-     */
+    
     "archivePath": "archive",
 
     "buildOptions": {
@@ -136,15 +119,10 @@
         "logger": "no"
     },
 
-    /**
-     * List of package names to require for the cmd build process
-     */
+    
     "requires": [
     ],
 
-    /**
-     * Uniquely generated id for this application, used as prefix for localStorage keys.
-     * Normally you should never change this value.
-     */
+    
     "id": "3a867610-670a-11e1-a90e-4318029d18bb"
 }
